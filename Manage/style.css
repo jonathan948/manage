@@ -1,0 +1,92 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+    font-family: Be Vietnam;
+}
+
+.btn-two{
+    background: hsl(12, 88%, 59%);
+    width: 140px;
+    border-radius: 30px;
+    border: solid  hsl(12, 88%, 59%);
+    color: white;
+}
+
+
+.btn-tw{
+    background: hsl(0, 0%, 98%);
+    width: 140px;
+    border-radius: 30px;
+    border: solid  hsl(0, 0%, 98%);
+    color: black;
+}
+
+
+
+.btn-twt{
+    background: hsl(0, 0%, 98%);
+    width: 70%;
+    border-radius: 30px;
+    border: solid  hsl(0, 0%, 98%);
+    color: black;
+}
+
+.btn-e{
+    background: hsl(12, 88%, 59%);
+    width: 140px;
+    border-radius: 30px;
+    border: solid  hsl(12, 88%, 59%);
+    color: white;
+}
+
+.btn-three{
+    background: hsl(12, 88%, 59%);
+    width: 40px;
+    border-radius: 10px;
+    border: solid  hsl(12, 88%, 59%);
+    color: white;
+}
+
+ul{
+    cursor: pointer;
+    list-style: none;
+}
+
+li:hover{
+    cursor: pointer;
+    color: chocolate;
+}
+.richard{
+    background:  hsl(0, 0%, 98%);
+}
+ .anisha{
+    background:  hsl(0, 0%, 98%);
+}
+ .ali{
+    background:  hsl(0, 0%, 98%);
+} 
+
+@media(max-width: 768px){
+    footer{
+        text-align: center;
+    }
+
+    .bring{
+        text-align: center;
+    }
+
+    .what{
+        text-align: center; 
+    }
+
+    .navbar{
+        text-align: center;
+    }
+
+  
+}

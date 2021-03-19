@@ -9,6 +9,7 @@ body{
     font-family: Be Vietnam;
 }
 
+
 .btn-two{
     background: hsl(12, 88%, 59%);
     width: 140px;
@@ -84,9 +85,4 @@ li:hover{
         text-align: center; 
     }
 
-    .navbar{
-        text-align: center;
-    }
-
-  
 }

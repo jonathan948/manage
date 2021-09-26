@@ -4,11 +4,15 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+
 body{
     font-size: 16px;
     font-family: Be Vietnam;
 }
-
 
 .btn-two{
     background: hsl(12, 88%, 59%);
@@ -16,6 +20,7 @@ body{
     border-radius: 30px;
     border: solid  hsl(12, 88%, 59%);
     color: white;
+    float: right !important;
 }
 
 
@@ -26,8 +31,6 @@ body{
     border: solid  hsl(0, 0%, 98%);
     color: black;
 }
-
-
 
 .btn-twt{
     background: hsl(0, 0%, 98%);
@@ -53,6 +56,11 @@ body{
     color: white;
 }
 
+.nav-item{
+    margin: 20px;
+    font-weight: 800;
+}
+
 ul{
     cursor: pointer;
     list-style: none;
@@ -72,6 +80,41 @@ li:hover{
     background:  hsl(0, 0%, 98%);
 } 
 
+/* contact section */
+
+.contact-para{
+    text-align: justify;
+}
+
+.contact-header{
+    line-height: 50px;
+}
+
+input{
+    padding: 10px;
+    width: 60%;
+    border-radius: 10px;
+}
+label{
+    padding: 10px;
+}
+
+.contact-btn{
+    padding: 10px;
+    width: 30%;
+    border-radius: 10px;
+    background: green;
+    border: none;
+    color: white;
+}
+
+.contact-btn:hover{
+    background-color: gray;
+    color: white;
+    border-radius: 10px;
+    border: none !important;
+}
+
 @media(max-width: 768px){
     footer{
         text-align: center;
@@ -85,4 +128,34 @@ li:hover{
         text-align: center; 
     }
 
+}
+
+@media(max-width: 540px){
+    input{
+        padding: 10px;
+        width: 100%;
+        border-radius: 10px;
+    }
+}
+
+
+@media(max-width: 320px){
+    input{
+        padding: 10px;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .contact-btn{
+        padding: 10px;
+        width: 40%;
+        border-radius: 10px;
+        background: green;
+        border: none;
+        color: white;
+    }
+
+    .simpl{
+        font-size: 30px;
+    }
 }

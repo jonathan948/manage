@@ -9,6 +9,7 @@ html{
 }
 
 
+
 body{
     font-size: 16px;
     font-family: Be Vietnam;
@@ -90,22 +91,9 @@ li:hover{
     line-height: 50px;
 }
 
-input{
-    padding: 10px;
-    width: 60%;
-    border-radius: 10px;
-}
-label{
-    padding: 10px;
-}
 
 .contact-btn{
-    padding: 10px;
-    width: 30%;
-    border-radius: 10px;
-    background: green;
     border: none;
-    color: white;
 }
 
 .contact-btn:hover{
@@ -137,7 +125,6 @@ label{
         border-radius: 10px;
     }
 }
-
 
 @media(max-width: 320px){
     input{
